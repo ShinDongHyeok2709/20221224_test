@@ -28,7 +28,7 @@ export default function TodoItem({ todo }) {
           disabled
           checked={todo.done}
         />
-        &nbsp;{todo.title}({todo.id})
+        &nbsp;{todo.title}
       </span>
       &nbsp; <ButtonRemove onClick={handleRemove}>삭제</ButtonRemove>
     </li>
