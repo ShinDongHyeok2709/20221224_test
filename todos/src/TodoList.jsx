@@ -3,7 +3,7 @@ import useTodosContext from "./hooks/useTodosContext";
 import TodoItem from "./TodoItem";
 
 export default function TodoList() {
-  const [todos, setTodos] = useTodosContext();
+  const [todos] = useTodosContext();
   return (
     <>
       <hr />

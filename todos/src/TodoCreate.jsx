@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import useTodosContext from "./hooks/useTodosContext";
 import useTodosInput from "./hooks/useTodosInput";
 
