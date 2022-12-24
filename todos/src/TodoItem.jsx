@@ -27,8 +27,8 @@ export default function TodoItem({ todo }) {
           readOnly
           disabled
           checked={todo.done}
-        />{" "}
-        {todo.title} ({todo.id})
+        />
+        &nbsp;{todo.title}({todo.id})
       </span>
       &nbsp; <ButtonRemove onClick={handleRemove}>삭제</ButtonRemove>
     </li>
